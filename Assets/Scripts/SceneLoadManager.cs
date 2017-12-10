@@ -6,16 +6,14 @@ using UnityEngine.SceneManagement;
 public class SceneLoadManager : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
-
-	}
+	void Start () { }
 
 	// Update is called once per frame
 	void Update () {
 
 	}
 
-	public void LoadScene (string scene) {
+	public void LoadScene (int scene) {
 		Debug.Log ("Load Scene");
 		SceneManager.LoadScene (scene);
 	}
