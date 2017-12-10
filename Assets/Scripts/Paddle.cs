@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Paddle : MonoBehaviour {
 
-	private const float MAX_MOVE_RANGE = 2.8f;
-	private const float MIN_MOVE_RANGE = -2.8f;
+	private const float MAX_MOVE_RANGE = 3.3f;
+	private const float MIN_MOVE_RANGE = -3.3f;
 	// Use this for initialization
 	void Start () {
 
