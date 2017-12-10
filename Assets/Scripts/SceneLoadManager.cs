@@ -17,4 +17,10 @@ public class SceneLoadManager : MonoBehaviour {
 		Debug.Log ("Load Scene");
 		SceneManager.LoadScene (scene);
 	}
+
+	public void BlockDestroyed () {
+		if (Block.breakableCount <= 0) {
+			LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
+		}
+	}
 }
