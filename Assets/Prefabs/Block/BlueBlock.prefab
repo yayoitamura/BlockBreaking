@@ -118,3 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0474b44f92f74d4db03666b3cfd13a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BlockBreakParticle: {fileID: 1254744484715168, guid: 54bff6ee3288747c58eed2a429422f45,
+    type: 2}
+  strength: 1
