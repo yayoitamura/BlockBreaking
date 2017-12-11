@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1927715734807290}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 1.47, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.6, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -118,6 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0474b44f92f74d4db03666b3cfd13a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlockBreakParticle: {fileID: 1833147279052890, guid: 521b4b393784544c59534a9ac0abd0ee,
+  brokenPiece: {fileID: 1833147279052890, guid: 521b4b393784544c59534a9ac0abd0ee,
     type: 2}
   strength: 2

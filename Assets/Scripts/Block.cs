@@ -29,6 +29,18 @@ public class Block : MonoBehaviour {
 		}
 	}
 
+	void OnTriggerEnter2D (Collider2D collider) {
+		strength--;
+		if (strength <= 0) {
+			breakableCount--;
+			Destroy (gameObject);
+			PieceBroken ();
+
+			sceneLoadManager.BlockDestroyed ();
+		}
+
+	}
+
 	void PieceBroken () {
 		var m = brokenPiece.GetComponent<ParticleSystem> ().main;
 		m.startColor = GetComponent<Renderer> ().material.color;
