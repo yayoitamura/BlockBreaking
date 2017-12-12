@@ -318,6 +318,63 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1001 &562695925
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4930361605609240, guid: f093513efed2d4f3996899a9752e0a60, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930361605609240, guid: f093513efed2d4f3996899a9752e0a60, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930361605609240, guid: f093513efed2d4f3996899a9752e0a60, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930361605609240, guid: f093513efed2d4f3996899a9752e0a60, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930361605609240, guid: f093513efed2d4f3996899a9752e0a60, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930361605609240, guid: f093513efed2d4f3996899a9752e0a60, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930361605609240, guid: f093513efed2d4f3996899a9752e0a60, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930361605609240, guid: f093513efed2d4f3996899a9752e0a60, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 50787443341626528, guid: f093513efed2d4f3996899a9752e0a60,
+        type: 2}
+      propertyPath: m_Mass
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114242659613045852, guid: f093513efed2d4f3996899a9752e0a60,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50787443341626528, guid: f093513efed2d4f3996899a9752e0a60,
+        type: 2}
+      propertyPath: m_LinearDrag
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f093513efed2d4f3996899a9752e0a60, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &629541989
 Prefab:
   m_ObjectHideFlags: 0
@@ -364,6 +421,11 @@ Prefab:
     - target: {fileID: 50432100080620756, guid: f2277e923139d486ea751516e72817cb,
         type: 2}
       propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114670868866829298, guid: f2277e923139d486ea751516e72817cb,
+        type: 2}
+      propertyPath: playerBall
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
