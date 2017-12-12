@@ -20,8 +20,7 @@ public class SceneLoadManager : MonoBehaviour {
 
 	public void BlockDestroyed () {
 		if (Block.breakableCount <= 0) {
-			// LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
-			LoadScene (4);
+			LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
 		}
 	}
 }

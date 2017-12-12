@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour {
 	Rigidbody2D rb2d;
-	private float thrust = 15f;
-	private const float PADDLE_TO_BALL_VECTOR = 0.3f;
+	private float thrust = 10f;
+	private const float PADDLE_TO_BALL_VECTOR = 0.2f;
 	private GameObject paddle;
 	private Vector2 paddlePositon;
 

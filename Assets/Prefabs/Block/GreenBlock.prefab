@@ -38,7 +38,7 @@ Transform:
   m_GameObject: {fileID: 1927715734807290}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -120,4 +120,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brokenPiece: {fileID: 1833147279052890, guid: 521b4b393784544c59534a9ac0abd0ee,
     type: 2}
-  strength: 2
+  strength: 3
