@@ -18,9 +18,17 @@ public class Block : MonoBehaviour {
 
 	}
 
-	void OnCollisionEnter2D (Collision2D other) {
-		Debug.Log ("Collision2D");
-		if (other.gameObject.tag == "Ball") {
+	void OnCollisionEnter2D (Collision2D collision) {
+		HitBlock (collision.gameObject.tag);
+	}
+
+	//BlueBlock用
+	void OnTriggerEnter2D (Collider2D collider) {
+		HitBlock (collider.gameObject.tag);
+	}
+
+	void HitBlock (string tag) {
+		if (tag == "Ball") {
 			strength--;
 			if (strength <= 0) {
 				breakableCount--;
@@ -31,19 +39,6 @@ public class Block : MonoBehaviour {
 			}
 		}
 	}
-
-	// void OnTriggerEnter2D (Collider2D collider) {
-	// 	Debug.Log ("OnTriggerEnter2D");
-	// 	strength--;
-	// 	if (strength <= 0) {
-	// 		breakableCount--;
-	// 		Destroy (gameObject);
-	// 		PieceBroken ();
-
-	// 		sceneLoadManager.BlockDestroyed ();
-	// 	}
-
-	// }
 
 	void PieceBroken () {
 		var m = brokenPiece.GetComponent<ParticleSystem> ().main;
