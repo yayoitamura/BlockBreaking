@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour {
 	Rigidbody2D rb2d;
-	public bool playerBall;
-	private float thrust = 10f;
+	private float thrust = 15f;
 	private const float PADDLE_TO_BALL_VECTOR = 0.2f;
 	private GameObject paddle;
 	private Vector2 paddlePositon;
@@ -25,15 +24,14 @@ public class Ball : MonoBehaviour {
 	void Update () {
 		switch (game) {
 			case GAME_STATE.READY:
-				if (playerBall == true) {
-					paddlePositon = paddle.transform.position;
-					paddlePositon.y += PADDLE_TO_BALL_VECTOR;
-					transform.position = paddlePositon;
 
-					if (Input.GetMouseButton (0)) {
-						rb2d.velocity = new Vector2 (0, thrust);
-						game = GAME_STATE.PLAY;
-					}
+				paddlePositon = paddle.transform.position;
+				paddlePositon.y += PADDLE_TO_BALL_VECTOR;
+				transform.position = paddlePositon;
+
+				if (Input.GetMouseButton (0)) {
+					rb2d.velocity = new Vector2 (0, thrust);
+					game = GAME_STATE.PLAY;
 				}
 				break;
 

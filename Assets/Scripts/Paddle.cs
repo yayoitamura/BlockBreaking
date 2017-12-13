@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Paddle : MonoBehaviour {
 
-	private const float MAX_MOVE_RANGE = 3.3f;
-	private const float MIN_MOVE_RANGE = -3.3f;
-	// Use this for initialization
+	private const float MAX_MOVE_RANGE = 3.4f;
+	private const float MIN_MOVE_RANGE = -3.4f;
+	SceneLoadManager sceneLoadManager;
+
 	void Start () {
 
 	}
@@ -18,4 +19,17 @@ public class Paddle : MonoBehaviour {
 		mousePosi.x = Mathf.Clamp (mousePosi.x, MIN_MOVE_RANGE, MAX_MOVE_RANGE);
 		transform.position = mousePosi;
 	}
+
+	private void OnCollisionEnter2D (Collision2D other) {
+		if (other.gameObject.tag == "Enemy") {
+			Debug.Log ("Damage");
+			PaddleBroken ();
+		}
+	}
+
+	private void PaddleBroken () {
+		sceneLoadManager = GameObject.Find ("SceneLoadManager").GetComponent<SceneLoadManager> ();
+		sceneLoadManager.LoadScene (11);
+	}
+
 }
