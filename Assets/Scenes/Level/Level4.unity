@@ -382,13 +382,13 @@ Transform:
   - {fileID: 733805783}
   - {fileID: 1133643514}
   - {fileID: 999125654}
+  - {fileID: 2048619420}
   - {fileID: 1881986343}
+  - {fileID: 2064594806}
   - {fileID: 1202056314}
   - {fileID: 1711529098}
   - {fileID: 1689644022}
   - {fileID: 717471669}
-  - {fileID: 2048619420}
-  - {fileID: 2064594806}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1402,14 +1402,6 @@ Prefab:
     - target: {fileID: 4522670949151218, guid: 69426e3895cc449daabc5fa96efa3cf5, type: 2}
       propertyPath: m_RootOrder
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4522670949151218, guid: 69426e3895cc449daabc5fa96efa3cf5, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4522670949151218, guid: 69426e3895cc449daabc5fa96efa3cf5, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69426e3895cc449daabc5fa96efa3cf5, type: 2}
@@ -10991,15 +10983,15 @@ Transform:
   - {fileID: 689197491}
   - {fileID: 759195343}
   - {fileID: 371494569}
+  - {fileID: 1489446829}
   - {fileID: 1690547034}
   - {fileID: 717607607}
+  - {fileID: 1842711712}
   - {fileID: 590552456}
   - {fileID: 1215777870}
   - {fileID: 703394972}
   - {fileID: 1755065444}
   - {fileID: 2085810100}
-  - {fileID: 1489446829}
-  - {fileID: 1842711712}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
