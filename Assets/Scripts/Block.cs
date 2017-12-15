@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Block : MonoBehaviour {
 	public GameObject brokenPiece;
+	public GameObject enemy;
 	SceneLoadManager sceneLoadManager;
 	public static int breakableCount;
 	public int strength;
@@ -33,6 +34,7 @@ public class Block : MonoBehaviour {
 			if (strength <= 0) {
 				breakableCount--;
 				Destroy (gameObject);
+				Instantiate (enemy, transform.position, transform.rotation);
 				PieceBroken ();
 
 				sceneLoadManager.BlockDestroyed ();

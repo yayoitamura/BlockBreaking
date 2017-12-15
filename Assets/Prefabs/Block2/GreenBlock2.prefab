@@ -120,4 +120,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brokenPiece: {fileID: 1833147279052890, guid: 521b4b393784544c59534a9ac0abd0ee,
     type: 2}
+  ball: {fileID: 1797410833752966, guid: f2277e923139d486ea751516e72817cb, type: 2}
   strength: 2
