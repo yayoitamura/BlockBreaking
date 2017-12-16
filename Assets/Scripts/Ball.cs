@@ -22,6 +22,7 @@ public class Ball : MonoBehaviour {
 	}
 
 	void Update () {
+		Debug.Log (rb2d.velocity.magnitude);
 		switch (game) {
 			case GAME_STATE.READY:
 
@@ -32,13 +33,21 @@ public class Ball : MonoBehaviour {
 				if (Input.GetMouseButton (0)) {
 					rb2d.velocity = new Vector2 (0, thrust);
 					game = GAME_STATE.PLAY;
+
 				}
 				break;
 
 			case GAME_STATE.PLAY:
+				if (rb2d.velocity.magnitude != 15) { }
 
 				break;
 		}
+	}
+	void OnCollisionEnter2D (Collision2D collision) {
+		// Ball does not trigger sound when brick is destoyed.
+		// Not 100% sure why, possibly because brick isn't there.
+		Vector2 tweak = new Vector2 (Random.Range (0f, 0.2f), Random.Range (0f, 0.2f));
 
+		GetComponent<Rigidbody2D> ().velocity += tweak;
 	}
 }

@@ -34,7 +34,7 @@ public class Block : MonoBehaviour {
 			if (strength <= 0) {
 				breakableCount--;
 				Destroy (gameObject);
-				Instantiate (enemy, transform.position, transform.rotation);
+				// Instantiate (enemy, transform.position, transform.rotation);
 				PieceBroken ();
 
 				sceneLoadManager.BlockDestroyed ();
