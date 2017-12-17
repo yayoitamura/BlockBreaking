@@ -22,14 +22,13 @@ public class Paddle : MonoBehaviour {
 
 	private void OnCollisionEnter2D (Collision2D other) {
 		if (other.gameObject.tag == "Enemy") {
-			Debug.Log ("Damage");
 			PaddleBroken ();
 		}
 	}
 
 	private void PaddleBroken () {
 		sceneLoadManager = GameObject.Find ("SceneLoadManager").GetComponent<SceneLoadManager> ();
-		sceneLoadManager.LoadScene (11);
+		sceneLoadManager.LoadScene (7);
 	}
 
 }

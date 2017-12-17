@@ -43,12 +43,12 @@ public class Ball : MonoBehaviour {
 				break;
 		}
 	}
-	void OnCollisionEnter2D (Collision2D collision) {
+	// void OnCollisionEnter2D (Collision2D collision) {
 
 		// if (rb2d.velocity.y <= 10) {
 		// 	rb2d.velocity = new Vector2 (rb2d.velocity.x, thrust);
 		// }
 		// Vector2 tweak = new Vector2 (Random.Range (0f, 0.2f), Random.Range (0f, 0.2f));
 		// GetComponent<Rigidbody2D> ().velocity += tweak;
-	}
+	// }
 }

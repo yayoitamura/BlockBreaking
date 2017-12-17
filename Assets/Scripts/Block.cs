@@ -20,33 +20,38 @@ public class Block : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D (Collision2D collision) {
-		HitBlock (collision.gameObject.tag);
+		HitBlock ();
 	}
 
 	//BlueBlock用
 	void OnTriggerEnter2D (Collider2D collider) {
-		HitBlock (collider.gameObject.tag);
+		HitBlock ();
 	}
 
-	void HitBlock (string tag) {
-		if (tag == "Ball") {
-			strength--;
-			if (strength <= 0) {
-				breakableCount--;
-				Destroy (gameObject);
-				// Instantiate (enemy, transform.position, transform.rotation);
-				PieceBroken ();
+	void HitBlock () {
+		strength--;
+		if (strength <= 0) {
+			breakableCount--;
 
-				sceneLoadManager.BlockDestroyed ();
-			}
+			PieceBroken ();
+			BrokenParticle ();
+			sceneLoadManager.BlockDestroyed ();
 		}
 	}
 
 	void PieceBroken () {
+		Destroy (gameObject);
+	}
+
+	void BrokenParticle () {
 		var m = brokenPiece.GetComponent<ParticleSystem> ().main;
 		m.startColor = GetComponent<Renderer> ().material.color;
 		GameObject partcle = Instantiate (brokenPiece, transform.position, transform.rotation) as GameObject;
 		Destroy (partcle, 1f);
+	}
+
+	void EnemyAppear () {
+		Instantiate (enemy, transform.position, transform.rotation);
 	}
 
 }
