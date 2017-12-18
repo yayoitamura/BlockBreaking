@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Block : MonoBehaviour {
 	public GameObject brokenPiece;
-	public GameObject enemy;
+	public GameObject[] FallingObjects;
 	SceneLoadManager sceneLoadManager;
 	public static int breakableCount;
 	public int strength;
@@ -35,6 +36,7 @@ public class Block : MonoBehaviour {
 
 			PieceBroken ();
 			BrokenParticle ();
+			EnemyAppear ();
 			sceneLoadManager.BlockDestroyed ();
 		}
 	}
@@ -51,7 +53,11 @@ public class Block : MonoBehaviour {
 	}
 
 	void EnemyAppear () {
-		Instantiate (enemy, transform.position, transform.rotation);
+		// if (SceneManager.GetActiveScene ().buildIndex >= 4) {
+		if (Random.Range (0, 5) == 1) {
+			GameObject drop = FallingObjects[Random.Range (0, FallingObjects.Length)];
+			Instantiate (drop, transform.position, transform.rotation);
+		}
 	}
 
 }
