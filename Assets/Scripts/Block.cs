@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Block : MonoBehaviour {
 	public GameObject brokenPiece;
-	public GameObject[] FallingObjects;
+	public GameObject[] DropItems;
 	SceneLoadManager sceneLoadManager;
 	public static int breakableCount;
 	public int strength;
@@ -36,7 +36,7 @@ public class Block : MonoBehaviour {
 
 			PieceBroken ();
 			BrokenParticle ();
-			EnemyAppear ();
+			ItemDrop ();
 			sceneLoadManager.BlockDestroyed ();
 		}
 	}
@@ -52,10 +52,10 @@ public class Block : MonoBehaviour {
 		Destroy (partcle, 1f);
 	}
 
-	void EnemyAppear () {
+	void ItemDrop () {
 		// if (SceneManager.GetActiveScene ().buildIndex >= 4) {
-		if (Random.Range (0, 5) == 1) {
-			GameObject drop = FallingObjects[Random.Range (0, FallingObjects.Length)];
+		if (Random.Range (0, 2) == 1) {
+			GameObject drop = DropItems[Random.Range (0, DropItems.Length)];
 			Instantiate (drop, transform.position, transform.rotation);
 		}
 	}

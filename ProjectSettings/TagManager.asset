@@ -8,6 +8,8 @@ TagManager:
   - Block
   - Paddle
   - Enemy
+  - Coin
+  - Hp
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - 
   - 
   - Paddle
-  - Enemy
+  - Drop
   - Ball
   - Block
   - 

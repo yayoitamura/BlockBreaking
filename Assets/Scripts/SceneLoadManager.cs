@@ -14,13 +14,24 @@ public class SceneLoadManager : MonoBehaviour {
 	}
 
 	public void LoadScene (int scene) {
-		Debug.Log ("Load Scene");
+		Debug.Log (scene);
+		SceneManager.LoadScene (scene);
+	}
+
+	// private IEnumerator LoadSceneCol (int scene) {
+
+	// }
+
+	private IEnumerator SceneLoad (int scene) {
+
+		yield return new WaitForSeconds (2f);
 		SceneManager.LoadScene (scene);
 	}
 
 	public void BlockDestroyed () {
 		if (Block.breakableCount <= 0) {
-			LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
+			// LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
+			StartCoroutine ("SceneLoad", SceneManager.GetActiveScene ().buildIndex + 1);
 		}
 	}
 }

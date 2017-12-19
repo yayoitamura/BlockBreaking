@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Paddle : MonoBehaviour {
 
-	private const float MAX_MOVE_RANGE = 3.4f;
-	private const float MIN_MOVE_RANGE = -3.4f;
+	private const float MAX_MOVE_RANGE = 3.5f;
+	private const float MIN_MOVE_RANGE = -3.5f;
+	private int hp = 3;
+	public int score = 0;
 	SceneLoadManager sceneLoadManager;
 
 	void Start () {
@@ -22,7 +24,15 @@ public class Paddle : MonoBehaviour {
 
 	private void OnCollisionEnter2D (Collision2D other) {
 		if (other.gameObject.tag == "Enemy") {
-			PaddleBroken ();
+			Debug.Log (other.gameObject.GetComponent<DropItem> ().hp);
+			hp += other.gameObject.GetComponent<DropItem> ().hp;
+			// PaddleBroken ();
+		}
+		if (other.gameObject.tag == "Coin") {
+			Debug.Log (score);
+			Debug.Log (other.gameObject.GetComponent<DropItem> ().point);
+			score += other.gameObject.GetComponent<DropItem> ().point;
+			Debug.Log (score);
 		}
 	}
 
