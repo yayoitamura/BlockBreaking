@@ -7,10 +7,12 @@ public class Score : MonoBehaviour {
 
 	private Paddle paddle;
 	private Text scoreText;
+	private Text lifeText;
 
 	// Use this for initialization
 	void Start () {
-		scoreText = GameObject.Find ("Score").GetComponent<Text> ();
+		scoreText = GameObject.Find ("ScoreText").GetComponent<Text> ();
+		lifeText = GameObject.Find ("LifeText").GetComponent<Text> ();
 		paddle = GameObject.Find ("Paddle").GetComponent<Paddle> ();
 
 	}
@@ -18,6 +20,7 @@ public class Score : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		scoreText.text = "score :  " + paddle.score;
+		scoreText.text = "× " + paddle.score;
+		lifeText.text = "× " + paddle.hp;
 	}
 }

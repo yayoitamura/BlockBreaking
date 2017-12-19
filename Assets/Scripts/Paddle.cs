@@ -6,7 +6,7 @@ public class Paddle : MonoBehaviour {
 
 	private const float MAX_MOVE_RANGE = 3.5f;
 	private const float MIN_MOVE_RANGE = -3.5f;
-	private int hp = 3;
+	public int hp = 3;
 	public int score = 0;
 	SceneLoadManager sceneLoadManager;
 
@@ -26,13 +26,19 @@ public class Paddle : MonoBehaviour {
 		if (other.gameObject.tag == "Enemy") {
 			Debug.Log (other.gameObject.GetComponent<DropItem> ().hp);
 			hp += other.gameObject.GetComponent<DropItem> ().hp;
+			Debug.Log ("hp " + hp);
 			// PaddleBroken ();
 		}
+
+		if (other.gameObject.tag == "Hp") {
+			// hp += other.gameObject.GetComponent<DropItem> ().hp;
+			hp = Mathf.Clamp ((other.gameObject.GetComponent<DropItem> ().hp) + hp, 0, 3);
+			Debug.Log ("hp " + hp);
+		}
+
 		if (other.gameObject.tag == "Coin") {
 			Debug.Log (score);
-			Debug.Log (other.gameObject.GetComponent<DropItem> ().point);
 			score += other.gameObject.GetComponent<DropItem> ().point;
-			Debug.Log (score);
 		}
 	}
 
