@@ -7,11 +7,15 @@ public class Paddle : MonoBehaviour {
 
 	private const float MAX_MOVE_RANGE = 3.5f;
 	private const float MIN_MOVE_RANGE = -3.5f;
+	private const int GAMEOVER = 7;
 	public int hp;
 	public int score;
 	SceneLoadManager sceneLoadManager;
+	GameObject ball;
 
 	void Start () {
+		ball = GameObject.Find ("Ball");
+
 		if (SceneManager.GetActiveScene ().buildIndex == 1) {
 			PlayerPrefs.DeleteAll ();
 		}
@@ -29,15 +33,18 @@ public class Paddle : MonoBehaviour {
 		transform.position = mousePosi;
 
 		DataSeve ();
+
+		if (hp <= 0) {
+			PlayerPrefs.DeleteAll ();
+		}
 	}
 
 	private void OnCollisionEnter2D (Collision2D other) {
 		if (other.gameObject.tag == "Enemy") {
-			Debug.Log (other.gameObject.GetComponent<DropItem> ().hp);
 			hp += other.gameObject.GetComponent<DropItem> ().hp;
 
 			if (hp <= 0) {
-				PaddleBroken ();
+				PaddleDead ();
 			}
 		}
 
@@ -51,14 +58,24 @@ public class Paddle : MonoBehaviour {
 		}
 	}
 
-	private void PaddleBroken () {
+	private void PaddleDead () {
 		sceneLoadManager = GameObject.Find ("SceneLoadManager").GetComponent<SceneLoadManager> ();
-		sceneLoadManager.LoadScene (7);
+		sceneLoadManager.LoadScene (GAMEOVER);
 	}
 
 	private void DataSeve () {
 		PlayerPrefs.SetInt ("HPkey", hp);
 		PlayerPrefs.SetInt ("SCOREkey", score);
+	}
+
+	public void ballSupply () {
+		if (hp <= 0) {
+			PaddleDead ();
+		} else {
+			ball.transform.position = new Vector2 (transform.position.x, transform.position.y + 0.2f);
+			ball.SetActive (true);
+			ball.GetComponent<Ball> ().ready ();
+		}
 	}
 
 }

@@ -39,10 +39,14 @@ public class Ball : MonoBehaviour {
 
 			case GAME_STATE.PLAY:
 				if (rb2d.velocity.magnitude != 15) { }
-
 				break;
 		}
 	}
+
+	public void ready () {
+		game = GAME_STATE.READY;
+	}
+
 	// void OnCollisionEnter2D (Collision2D collision) {
 
 	// if (rb2d.velocity.y <= 10) {
