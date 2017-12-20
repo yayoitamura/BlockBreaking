@@ -32,10 +32,10 @@ public class Paddle : MonoBehaviour {
 		mousePosi.x = Mathf.Clamp (mousePosi.x, MIN_MOVE_RANGE, MAX_MOVE_RANGE);
 		transform.position = mousePosi;
 
-		DataSeve ();
-
 		if (hp <= 0) {
 			PlayerPrefs.DeleteAll ();
+		} else {
+			DataSeve ();
 		}
 	}
 
