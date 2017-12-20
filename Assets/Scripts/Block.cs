@@ -54,7 +54,7 @@ public class Block : MonoBehaviour {
 
 	void ItemDrop () {
 		// if (SceneManager.GetActiveScene ().buildIndex >= 4) {
-		if (Random.Range (0, 2) == 1) {
+		if (Random.Range (0, 6) == 1) {
 			GameObject drop = DropItems[Random.Range (0, DropItems.Length)];
 			Instantiate (drop, transform.position, transform.rotation);
 		}

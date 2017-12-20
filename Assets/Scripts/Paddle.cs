@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Paddle : MonoBehaviour {
 
-	private const float MAX_MOVE_RANGE = 3.5f;
-	private const float MIN_MOVE_RANGE = -3.5f;
+	private const float MAX_MOVE_RANGE = 2.9f;
+	private const float MIN_MOVE_RANGE = -2.9f;
 	private const int GAMEOVER = 7;
 	public int hp;
 	public int score;
