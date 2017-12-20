@@ -2241,6 +2241,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -2299,6 +2303,10 @@ Prefab:
     - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
       propertyPath: m_Name
       value: YellowBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
@@ -3630,7 +3638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &375185940
 Transform:
   m_ObjectHideFlags: 0
@@ -4957,7 +4965,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &463312593
 Transform:
   m_ObjectHideFlags: 0
@@ -5006,7 +5014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &468558491
 Transform:
   m_ObjectHideFlags: 0
@@ -5114,7 +5122,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &474396812
 Transform:
   m_ObjectHideFlags: 0
@@ -5163,7 +5171,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &481492291
 Transform:
   m_ObjectHideFlags: 0
@@ -5507,7 +5515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &522555750
 Transform:
   m_ObjectHideFlags: 0
@@ -5823,7 +5831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &552011035
 Transform:
   m_ObjectHideFlags: 0
@@ -6666,6 +6674,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -7337,6 +7349,10 @@ Prefab:
     - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
       propertyPath: m_Name
       value: YellowBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
@@ -8737,6 +8753,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -8854,6 +8874,10 @@ Prefab:
     - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
       propertyPath: m_Name
       value: YellowBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
@@ -9149,6 +9173,10 @@ Prefab:
     - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
       propertyPath: m_Name
       value: YellowBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
@@ -9552,6 +9580,10 @@ Prefab:
     - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
       propertyPath: m_Name
       value: YellowBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
@@ -10125,6 +10157,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -10324,7 +10360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &907422026
 Transform:
   m_ObjectHideFlags: 0
@@ -11305,6 +11341,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -11846,6 +11886,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -12104,7 +12148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1075428003
 Transform:
   m_ObjectHideFlags: 0
@@ -12212,7 +12256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1083585997
 Transform:
   m_ObjectHideFlags: 0
@@ -12325,7 +12369,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1111862277
 Transform:
   m_ObjectHideFlags: 0
@@ -14447,6 +14491,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -14587,7 +14635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1374521809
 Transform:
   m_ObjectHideFlags: 0
@@ -14732,6 +14780,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -14790,6 +14842,10 @@ Prefab:
     - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
       propertyPath: m_Name
       value: YellowBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
@@ -15526,7 +15582,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1491872419
 Transform:
   m_ObjectHideFlags: 0
@@ -16858,6 +16914,10 @@ Prefab:
     - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
       propertyPath: m_Name
       value: YellowBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
@@ -18714,6 +18774,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -19063,6 +19127,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -19321,7 +19389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1800647852
 Transform:
   m_ObjectHideFlags: 0
@@ -19768,7 +19836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1838143131
 Transform:
   m_ObjectHideFlags: 0
@@ -20358,7 +20426,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1938076431
 Transform:
   m_ObjectHideFlags: 0
@@ -21082,6 +21150,10 @@ Prefab:
     - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
       propertyPath: m_Name
       value: YellowBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
@@ -21906,6 +21978,10 @@ Prefab:
       propertyPath: m_Name
       value: YellowBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}
   m_IsPrefabParent: 0
@@ -22192,6 +22268,10 @@ Prefab:
     - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
       propertyPath: m_Name
       value: YellowBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404240253024586, guid: 7d60414837a7744f893c8495c2059844, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d60414837a7744f893c8495c2059844, type: 2}

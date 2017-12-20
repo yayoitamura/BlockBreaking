@@ -393,6 +393,10 @@ Prefab:
       propertyPath: m_Name
       value: BlueBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
   m_IsPrefabParent: 0
@@ -747,6 +751,10 @@ Prefab:
       propertyPath: m_Name
       value: BlueBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
   m_IsPrefabParent: 0
@@ -806,6 +814,10 @@ Prefab:
       propertyPath: m_Name
       value: BlueBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
   m_IsPrefabParent: 0
@@ -864,6 +876,10 @@ Prefab:
     - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
       propertyPath: m_Name
       value: BlueBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
@@ -1451,6 +1467,10 @@ Prefab:
       propertyPath: m_Name
       value: BlueBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
   m_IsPrefabParent: 0
@@ -1532,7 +1552,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &315796382
 Transform:
   m_ObjectHideFlags: 0
@@ -1668,6 +1688,10 @@ Prefab:
     - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
       propertyPath: m_Name
       value: BlueBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
@@ -2247,7 +2271,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &518894759
 Transform:
   m_ObjectHideFlags: 0
@@ -2874,7 +2898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &654159023
 Transform:
   m_ObjectHideFlags: 0
@@ -3747,6 +3771,10 @@ Prefab:
       propertyPath: m_Name
       value: BlueBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
   m_IsPrefabParent: 0
@@ -3924,6 +3952,10 @@ Prefab:
       propertyPath: m_Name
       value: BlueBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
   m_IsPrefabParent: 0
@@ -4005,7 +4037,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &826773878
 Transform:
   m_ObjectHideFlags: 0
@@ -4318,6 +4350,10 @@ Prefab:
     - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
       propertyPath: m_Name
       value: BlueBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
@@ -4666,7 +4702,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &960064421
 Transform:
   m_ObjectHideFlags: 0
@@ -5299,6 +5335,10 @@ Prefab:
       propertyPath: m_Name
       value: BlueBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
   m_IsPrefabParent: 0
@@ -5416,6 +5456,10 @@ Prefab:
     - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
       propertyPath: m_Name
       value: BlueBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
@@ -5753,6 +5797,10 @@ Prefab:
     - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
       propertyPath: m_Name
       value: BlueBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624859807590520, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b38ed0bc829624f15ad29e30920c6651, type: 2}
@@ -6539,7 +6587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1615103529
 Transform:
   m_ObjectHideFlags: 0
@@ -6699,7 +6747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1725836918
 Transform:
   m_ObjectHideFlags: 0
@@ -7195,7 +7243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1910024293
 Transform:
   m_ObjectHideFlags: 0
